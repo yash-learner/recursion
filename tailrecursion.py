@@ -16,7 +16,7 @@
 
 # TODO: NON-TAIL RECURSIVE FUNCTION
 def factorial(n):
-    if n == 1:
+    if n == 1 or n == 0:
         return 1
     else:
         return n*factorial(n-1)
@@ -28,7 +28,7 @@ print(factorial(n))
 
 # TODO: TAIL RECURSIVE FUNCTION
 def tail_factorial(n, k):
-    if n == 1:
+    if n == 1 or n == 0:
         return k
     else:
         return tail_factorial(n-1, n*k)
