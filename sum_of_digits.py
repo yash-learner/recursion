@@ -14,7 +14,7 @@ print(sum_of_digits(n, 0))
 # print(245 % 10) => gets the last digit
 
 '''
-  Time Complexity : O(n)
+  Time Complexity : O(len(n))
   Space Complexity : O(n)
 '''
 
